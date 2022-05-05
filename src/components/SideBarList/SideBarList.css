@@ -1,0 +1,39 @@
+.side-bar-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.side-bar-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 172px;
+}
+.side-bar-rectangle {
+  width: 74px;
+  height: 21px;
+  margin-top: 36px;
+  margin-bottom: 66px;
+  margin-left: 32px;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    to right,
+    #ff9f00,
+    #ff9322,
+    #ff8734,
+    #ff7c43,
+    #ff7350,
+    #ff6a68,
+    #ff6580,
+    #fe6597,
+    #ec70bd,
+    #cc80dc,
+    #a090f1,
+    #689ef8
+  );
+}
+
+.side-bar-line {
+  width: 172px;
+  border: 1px solid #464c61;
+}

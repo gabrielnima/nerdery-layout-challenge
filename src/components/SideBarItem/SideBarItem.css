@@ -1,0 +1,13 @@
+.side-bar-item {
+  display: flex;
+  margin-bottom: 33px;
+  align-items: center;
+  padding-left: 32px;
+}
+.side-bar-item__text {
+  margin-left: 19px;
+  font-size: 10px;
+  line-height: 11.72px;
+  color: var(--sidebarItem-text);
+  font-weight: 400;
+}

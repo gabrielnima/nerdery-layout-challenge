@@ -1,0 +1,23 @@
+.create-section {
+  display: flex;
+  flex-direction: column;
+  width: 116px;
+  height: 111px;
+  background-color: #464c61;
+  border-radius: 9px;
+  margin-top: 173px;
+  margin-bottom: 20px;
+  padding-top: 19px;
+  align-items: flex-start;
+}
+.create-section__triangle {
+  position: relative;
+  width: 15px;
+  height: 15px;
+
+  background: #464c61;
+  border-radius: 1px;
+  transform: rotate(2.3536rad);
+  top: 2px;
+  left: 15px;
+}
