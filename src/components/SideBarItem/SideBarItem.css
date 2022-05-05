@@ -1,8 +1,14 @@
 .side-bar-item {
-  display: flex;
+  /* display: flex;
   margin-bottom: 33px;
   align-items: center;
-  padding-left: 32px;
+  padding-left: 32px; */
+  display: flex;
+  /* margin-bottom: 33px; */
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  /* padding-left: 32px;*/
 }
 .side-bar-item__text {
   margin-left: 19px;
@@ -10,4 +16,22 @@
   line-height: 11.72px;
   color: var(--sidebarItem-text);
   font-weight: 400;
+}
+
+.side-bar-item:hover {
+  border-left: 3px solid #ffff;
+}
+.side-bar-item:hover > p {
+  color: #ffffff;
+}
+
+.side-bar-item__icon {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #858a9d;
+  margin-left: 32px;
+}
+
+.side-bar-item:hover > div {
+  border: 1px solid #ffffff;
 }

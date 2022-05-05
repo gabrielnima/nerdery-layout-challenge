@@ -1,0 +1,20 @@
+.recent-files-header-table {
+  /* display: flex;
+  width: 435px;
+  justify-content: space-between; */
+  display: grid;
+  margin-top: 14px;
+  grid-template-columns: 1fr 112px 124px;
+}
+.recent-files-header-table__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #858a9d;
+}
+/* .recent-files-header-table__text--modified {
+  margin-left: 60px;
+} */
+.recent-files-header-table__info {
+  display: flex;
+}

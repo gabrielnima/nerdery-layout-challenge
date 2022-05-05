@@ -1,0 +1,5 @@
+.recently-used {
+  display: flex;
+  margin-top: 25px;
+  flex-direction: column;
+}

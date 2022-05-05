@@ -1,0 +1,29 @@
+.circle {
+  border-radius: 50px;
+  height: 18px;
+  flex-basis: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #bec0c8;
+  box-sizing: border-box;
+  margin-top: 30px;
+  width: 18px;
+}
+.circle__text {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 9.38px;
+}
+.card__circles {
+  display: flex;
+}
+.circle:nth-child(2) {
+  position: relative;
+  left: -5px;
+}
+.circle:nth-child(3) {
+  position: relative;
+  left: -10px;
+}

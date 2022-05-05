@@ -7,7 +7,7 @@ interface SideBarItemPropsTypes {
 export function SideBarItem({ text }: SideBarItemPropsTypes) {
   return (
     <div className="side-bar-item">
-      <img className="side-bar-item__icon" src={sideBarItemIcon} alt="icon" />
+      <div className="side-bar-item__icon"></div>
       <p className="side-bar-item__text">{text}</p>
     </div>
   );

@@ -1,0 +1,17 @@
+.square {
+  width: 30px;
+  position: relative;
+  height: 26px;
+  background-color: #ff9f00;
+  margin-left: 17px;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+.square:nth-child(2) {
+  position: relative;
+  background-color: #ffd999;
+  margin-left: 12px;
+  top: -40px;
+  z-index: 1;
+}

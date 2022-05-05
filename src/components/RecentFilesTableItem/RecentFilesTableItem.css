@@ -1,0 +1,26 @@
+.recent-files-table-item {
+  display: grid;
+  grid-template-columns: 1fr 112px 100px 24px;
+  grid-template-rows: 42px;
+  align-items: center;
+  margin-bottom: 16px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.recent-files-table-item__name {
+  display: flex;
+  align-items: center;
+}
+.recent-files-table-item__title {
+  margin-left: 12px;
+}
+
+.recent-files-table-item__modified,
+.recent-files-table-item__members {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #858a9d;
+}
