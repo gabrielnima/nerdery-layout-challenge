@@ -1,10 +1,10 @@
-import { RecentFilesHeader } from "../RecentFilesHeader/RecentFilesHeader";
+import { Header } from "../Header/Header";
 import { RecentFilesTable } from "../RecentFilesTable/RecentFilesTable";
 import "./RecentFiles.css";
 export function RecentFiles() {
   return (
     <div className="recent-files">
-      <RecentFilesHeader />
+      <Header text={"Recent Files"} />
       <RecentFilesTable />
     </div>
   );

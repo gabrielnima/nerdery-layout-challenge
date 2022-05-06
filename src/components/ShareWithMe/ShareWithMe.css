@@ -1,0 +1,7 @@
+.share-with-me {
+  width: 527px;
+  display: flex;
+  margin-left: 16px;
+  margin-top: 22px;
+  flex-direction: column;
+}

@@ -1,6 +1,7 @@
 import { SearchBar } from "../SearchBar/SearchBar";
 import { RecentlyUsed } from "../RecentlyUsed/RecentlyUsed";
 import { RecentFiles } from "../RecentFiles/RecentFiles";
+import { ShareWithMe } from "../ShareWithMe/ShareWithMe";
 import "./MainSection.css";
 
 export function MainSection() {
@@ -9,6 +10,7 @@ export function MainSection() {
       <SearchBar />
       <RecentlyUsed />
       <RecentFiles />
+      <ShareWithMe />
     </div>
   );
 }

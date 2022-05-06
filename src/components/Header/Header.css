@@ -1,16 +1,16 @@
-.recent-files__header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
-.recent-files__title {
+.header__title {
   font-weight: 400;
   font-size: 20px;
   line-height: 23.44px;
   color: #343951;
 }
-.recent-files__text {
+.header__text {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;

@@ -1,0 +1,43 @@
+.share-with-me-card__circles {
+  display: flex;
+  margin-left: 50px;
+  height: 40px;
+  margin-top: -6px;
+}
+.share-with-me-card {
+  display: flex;
+  width: 157px;
+  height: 79px;
+  margin-right: 13px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(58, 58, 58, 0.07);
+  border-radius: 12px;
+  flex-direction: column;
+}
+.share-with-me-card-graphics {
+  display: flex;
+  margin-left: -6px;
+  margin-top: -6px;
+}
+
+.share-with-me-card__title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #343951;
+}
+
+.share-with-me-card__created {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 9px;
+  letter-spacing: 0.05em;
+
+  color: #858a9d;
+}
+.share-with-me-card__text {
+  margin-left: 11px;
+  margin-top: 6px;
+}
