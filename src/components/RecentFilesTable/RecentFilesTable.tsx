@@ -34,6 +34,7 @@ export function RecentFilesTable() {
       <div className="recent-files-container">
         {data.map((item) => (
           <RecentFilesTableItem
+            key={item.title}
             color={item.color}
             title={item.title}
             membersQuantity={item.membersQuantity}

@@ -1,0 +1,5 @@
+.data-storage {
+  display: grid;
+  grid-template-rows: repeat(4, 45px);
+  margin-top: 29px;
+}

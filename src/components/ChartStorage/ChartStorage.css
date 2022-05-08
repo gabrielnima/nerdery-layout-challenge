@@ -1,0 +1,63 @@
+.chart-storage__chart {
+  width: 140px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chart-storage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-storage__title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  align-self: self-start;
+  color: #343951;
+  font-family: "Roboto", sans-serif;
+}
+
+.percentage-container__value {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  color: #343951;
+}
+.chart-storage__info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 9px;
+  letter-spacing: 0.05em;
+  margin-top: 20px;
+  color: #858a9d;
+}
+.percentage-container__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #858a9d;
+}
+.percentage-symbol {
+  font-size: 16px;
+}
+.percentage-container {
+  width: 102px;
+  height: 102px;
+  border-radius: 60px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 23px;
+  left: 19px;
+}

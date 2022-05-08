@@ -14,7 +14,7 @@ export function SideBarList() {
       <div className="side-bar-rectangle"></div>
       <div className="side-bar-list">
         {options.map((option) => (
-          <SideBarItem text={option.text} />
+          <SideBarItem key={option.text} text={option.text} />
         ))}
       </div>
       <div className="side-bar-line"></div>

@@ -1,6 +1,8 @@
 :root {
   --sidebar: #343951;
   --sidebarItem-text: #858a9d;
+  --background-section: #f5f6fc;
+  --background-app: #ffffff;
 }
 
 * {

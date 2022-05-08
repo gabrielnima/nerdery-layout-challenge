@@ -24,6 +24,7 @@ export function ShareWithMeCardContainer() {
     <div className="share-with-me-card-container">
       {data.map((item) => (
         <ShareWithMeCard
+          key={item.title}
           title={item.title}
           created={item.created}
           circles={item.circles}

@@ -10,7 +10,7 @@ export function CreateSection() {
   return (
     <div className="create-section">
       {options.map((option) => (
-        <CreateSectionItem text={option.text} />
+        <CreateSectionItem key={option.text} text={option.text} />
       ))}
       <div className="create-section__triangle"></div>
     </div>

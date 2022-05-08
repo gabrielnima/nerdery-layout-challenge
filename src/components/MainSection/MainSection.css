@@ -1,7 +1,6 @@
 .main-section {
-  background-color: #f5f6fc;
+  background-color: var(--background-section);
   width: 562px;
   height: 768px;
-  border: 1px solid black;
   margin-left: 22px;
 }

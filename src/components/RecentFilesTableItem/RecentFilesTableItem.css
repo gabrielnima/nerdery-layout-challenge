@@ -24,3 +24,14 @@
   line-height: 14px;
   color: #858a9d;
 }
+.recent-files-table-item__title {
+  color: "#343951";
+  font-weight: 400;
+  font-size: 12;
+}
+.recent-files-table-item__square {
+  width: 21px;
+  height: 21px;
+  border-radius: 5px;
+  margin-left: 13px;
+}

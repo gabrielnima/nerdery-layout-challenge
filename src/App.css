@@ -3,6 +3,7 @@
   height: 768px;
   margin: 0 auto;
   display: flex;
+  background-color: var(--background-app);
 }
 
 .App-logo {

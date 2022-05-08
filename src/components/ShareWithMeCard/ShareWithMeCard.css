@@ -2,7 +2,8 @@
   display: flex;
   margin-left: 50px;
   height: 40px;
-  margin-top: -6px;
+  position: relative;
+  top: -6px;
 }
 .share-with-me-card {
   display: flex;
@@ -16,8 +17,9 @@
 }
 .share-with-me-card-graphics {
   display: flex;
-  margin-left: -6px;
-  margin-top: -6px;
+  position: relative;
+  left: -7px;
+  top: -4px;
 }
 
 .share-with-me-card__title {
@@ -34,10 +36,9 @@
   font-size: 8px;
   line-height: 9px;
   letter-spacing: 0.05em;
-
+  margin-top: 2px;
   color: #858a9d;
 }
 .share-with-me-card__text {
   margin-left: 11px;
-  margin-top: 6px;
 }

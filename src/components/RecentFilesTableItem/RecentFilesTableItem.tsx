@@ -7,7 +7,7 @@ interface PropsRecentFilesTableItem {
   lastModified: string;
 }
 
-type Style = {
+export type Style = {
   [key: string]: React.CSSProperties;
 };
 
@@ -19,16 +19,7 @@ export function RecentFilesTableItem({
 }: PropsRecentFilesTableItem) {
   const styles: Style = {
     square: {
-      width: 21,
-      height: 21,
       backgroundColor: color,
-      borderRadius: 5,
-      marginLeft: 13,
-    },
-    title: {
-      color: "#343951",
-      fontWeight: 400,
-      fontSize: 12,
     },
   };
 
@@ -39,9 +30,7 @@ export function RecentFilesTableItem({
           className="recent-files-table-item__square"
           style={styles.square}
         ></div>
-        <p className="recent-files-table-item__title" style={styles.title}>
-          {title}
-        </p>
+        <p className="recent-files-table-item__title">{title}</p>
       </div>
 
       <p className="recent-files-table-item__members">

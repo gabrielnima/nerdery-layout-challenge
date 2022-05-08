@@ -16,11 +16,9 @@ export function CardsContainer() {
   ];
   return (
     <div className="cards-container">
-      {/* {Array.from({ length: counter }, (_, index) => (
-        <Card key={index} />
-      ))} */}
       {cardValues.map((card) => (
         <Card
+          key={card.title}
           title={card.title}
           created={card.created}
           circleCounter={card.circleCounter}

@@ -1,0 +1,40 @@
+.data-storage-item {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 38px 106px 50px;
+  border-bottom: 1px solid #e0e7f1;
+}
+.data-storage__square {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+}
+.data-storage__text {
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 9px;
+  color: #343951;
+}
+.data-storage__space {
+  width: 54px;
+  height: 21px;
+  background: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.data-storage__type {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #343951;
+}
+
+.data-storage__quantity {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 9px;
+  color: #858a9d;
+}

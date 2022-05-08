@@ -1,0 +1,31 @@
+.storage-header {
+  display: flex;
+  justify-content: space-around;
+  height: 79px;
+  align-items: center;
+  border-bottom: 1px solid #e0e7f1;
+}
+.storage-header__icon {
+  width: 15px;
+  height: 15px;
+  background-color: #c4c4c4;
+}
+
+.storage-header__icons {
+  display: flex;
+  justify-content: space-around;
+  width: 52px;
+}
+
+.storage-header__user {
+  display: flex;
+  align-items: center;
+}
+
+.storage-header__img {
+  margin-left: 4px;
+}
+
+.storage-header__name {
+  color: #343951;
+}
