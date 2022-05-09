@@ -1,7 +1,7 @@
 import "./SideBar.css";
-import { SideBarList } from "../SideBarList/SideBarList";
-import { CreateSection } from "../CreateSection/CreateSection";
-import { OptionButton } from "../OptionButton/OptionButton";
+import { SideBarList } from "./SideBarList/SideBarList";
+import { CreateSection } from "./CreateSection/CreateSection";
+import { OptionButton } from "../MainSection/OptionButton/OptionButton";
 import union from "../../assets/images/union.svg";
 export function SideBar() {
   return (

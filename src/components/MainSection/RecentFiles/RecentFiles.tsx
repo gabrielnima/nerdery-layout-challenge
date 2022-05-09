@@ -1,4 +1,4 @@
-import { Header } from "../Header/Header";
+import { Header } from ".//../../Header/Header";
 import { RecentFilesTable } from "../RecentFilesTable/RecentFilesTable";
 import "./RecentFiles.css";
 export function RecentFiles() {

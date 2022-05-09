@@ -1,4 +1,4 @@
-import horizontalPoints from "../../assets/images/horizontalPoints.svg";
+import horizontalPoints from "../../../assets/images/horizontalPoints.svg";
 import "./RecentFilesTableItem.css";
 interface PropsRecentFilesTableItem {
   color: string;

@@ -1,5 +1,5 @@
-import iconLeft from "../../assets/images/iconLeft.svg";
-import iconRight from "../../assets/images/iconRight.svg";
+import iconLeft from "../../../assets/images/iconLeft.svg";
+import iconRight from "../../../assets/images/iconRight.svg";
 import "./RecentlyUsedHeader.css";
 export function RecentlyUsedHeader() {
   return (

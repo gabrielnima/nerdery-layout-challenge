@@ -1,4 +1,4 @@
-import CreateSectionItemIcon from "../../assets/images/sideBarItemIcon.svg";
+import CreateSectionItemIcon from "../../../assets/images/sideBarItemIcon.svg";
 import "./CreateSectionItem.css";
 
 interface CreateSectionItemTypes {

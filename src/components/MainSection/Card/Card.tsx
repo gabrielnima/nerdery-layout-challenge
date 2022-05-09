@@ -1,6 +1,6 @@
-import { Circle } from "../Circle/Circle";
-import { Square } from "../Square/Square";
-import points from "../../assets/images/points.svg";
+import { Circle } from "../../Circle/Circle";
+import { Square } from "../../Square/Square";
+import points from "../../../assets/images/points.svg";
 import "./Card.css";
 
 interface PropsCardTypes {
@@ -18,7 +18,7 @@ export function Card({ title, created, circleCounter }: PropsCardTypes) {
         </div>
         <div className="card__circles">
           {Array.from({ length: circleCounter }, (_, index) => (
-            <Circle key={index} text={index === 2 ? "+3" : ""} />
+            <Circle key={index} text={index >= 2 ? "+3" : ""} />
           ))}
         </div>
         <img className="card__points" src={points} alt="points Icon" />

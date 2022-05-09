@@ -1,4 +1,4 @@
-import userImage from "../../assets/images/userImage.svg";
+import userImage from "../../../assets/images/userImage.svg";
 import "./StorageHeader.css";
 interface PropsHeaderTypes {
   name: string;

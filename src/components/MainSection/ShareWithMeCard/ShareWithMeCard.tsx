@@ -1,7 +1,7 @@
-import { Square } from "../Square/Square";
-import { Circle } from "../Circle/Circle";
+import { Square } from "../../Square/Square";
+import { Circle } from "../../Circle/Circle";
 import "./ShareWithMeCard.css";
-interface ShareWithMeCard {
+interface PropsShareWithMeCardTypes {
   title: string;
   created: string;
   circles: {
@@ -9,7 +9,11 @@ interface ShareWithMeCard {
   }[];
 }
 
-export function ShareWithMeCard({ title, created, circles }: ShareWithMeCard) {
+export function ShareWithMeCard({
+  title,
+  created,
+  circles,
+}: PropsShareWithMeCardTypes) {
   return (
     <div className="share-with-me-card">
       <div className="share-with-me-card-graphics">

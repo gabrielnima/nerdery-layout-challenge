@@ -1,4 +1,4 @@
-import { Header } from "../Header/Header";
+import { Header } from "../../Header/Header";
 import { ShareWithMeCardContainer } from "../ShareWithMeCardContainer/ShareWithMeCardContainer";
 import "./ShareWithMe.css";
 export function ShareWithMe() {

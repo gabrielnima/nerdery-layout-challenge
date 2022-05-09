@@ -22,7 +22,6 @@ export function ChartStorage({ values }: PropsChartStorage) {
     labels: [],
     datasets: [
       {
-        label: "My First Dataset",
         data: [...spaceArray],
         backgroundColor: [...colorsArray],
         hoverOffset: 4,

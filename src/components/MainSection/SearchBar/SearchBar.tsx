@@ -1,4 +1,4 @@
-import sideBarItemIcon from "../../assets/images/sideBarItemIcon.svg";
+import sideBarItemIcon from "../../../assets/images/sideBarItemIcon.svg";
 import "./SearchBar.css";
 export function SearchBar() {
   return (

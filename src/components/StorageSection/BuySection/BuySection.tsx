@@ -1,5 +1,5 @@
 import "./BuySection.css";
-import { OptionButton } from "../OptionButton/OptionButton";
+import { OptionButton } from "../../MainSection/OptionButton/OptionButton";
 export function BuySection() {
   return (
     <div className="buy-section">
