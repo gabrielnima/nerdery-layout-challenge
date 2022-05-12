@@ -10,7 +10,6 @@ interface PropsDataStorageTypes {
 }
 export function DataStorage({ values }: PropsDataStorageTypes) {
   const orderedArray = values.sort((actual, prox) => prox.space - actual.space);
-  console.log(orderedArray);
   return (
     <div className="data-storage">
       {orderedArray.map((item, index) => (
